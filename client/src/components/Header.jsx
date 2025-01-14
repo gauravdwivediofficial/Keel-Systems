@@ -16,12 +16,13 @@ function Header() {
         className="w-36 h-36 rounded-full mb-6"
       />
       <h1 className="flex items-center gap-2 text-xl sm:text-3xl font-medium mb-2">
-        Hey {userData ? userData.name : "Developer"}!
+        Hey {userData ? userData.name : "Coders"}!
         <img src={assets.hand_wave} alt="" className="w-8 aspect-square" />
       </h1>
       <h2 className="text-3xl sm:text-5xl font-semibold mb-4">welcome</h2>
       <p className="mb-8 max-w-md">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+        iusto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
         iusto!
       </p>
       <button
